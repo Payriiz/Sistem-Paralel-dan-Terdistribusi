@@ -5,7 +5,7 @@ SIZE = 1024
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 s.connect(server_address)
-print("Terhubung ke server. ketik (exit) untuk keluar")
+print(f"Terhubung ke server: {server_address}. ketik (exit) untuk keluar")
 
 while 1:
     pesan = input("Masukkan pesan: ").strip()
