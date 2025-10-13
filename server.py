@@ -1,5 +1,5 @@
 import socket
-server_address = ('0.0.0.0', 12345)
+server_address = ('localhost', 12345)
 SIZE = 1024
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
